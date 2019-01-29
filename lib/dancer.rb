@@ -3,7 +3,7 @@ require_relative './dance_module.rb'
 
 class Dancer
 
-  include Dance #all the method inside our module Dance are used as instance methods
+  include Dance #all the method inside our module Dance are used here as instance methods
 
   attr_accessor :name
 
@@ -11,5 +11,5 @@ class Dancer
     @name = name
   end
 
-  extend
+  extend MetaDancing #all the method inside our module MetaDancing our used here as class mehtods 
 end
