@@ -11,5 +11,6 @@ class Dancer
     @name = name
   end
 
-  extend MetaDancing #all the method inside our module MetaDancing our used here as class methods 
+  extend MetaDancing #all the method inside our module MetaDancing our used here as class methods
+
 end
