@@ -13,4 +13,6 @@ class Kid
 
   extend MetaDancing#all the method inside our module MetaDancing our used here as class methods
 
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods
 end
